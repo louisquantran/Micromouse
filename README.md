@@ -6,9 +6,11 @@ The board is designed in [KiCad](https://www.kicad.org/) and built around an STM
 
 ## PCB
 
-| 3D render | Layout |
-|---|---|
-| ![3D render of the Micromouse PCB](docs/Micromouse%20PCB%203D%20Viewer.png) | ![Micromouse PCB layout](docs/Micromouse%20PCB%20Layout.png) |
+<p align="center">
+  <img src="docs/Micromouse%20PCB%203D%20Viewer.png" alt="3D render of the Micromouse PCB" width="49%">
+  <img src="docs/Micromouse%20PCB%20Layout.png" alt="Micromouse PCB layout" width="49%">
+</p>
+<p align="center"><em>Left: 3D render. Right: copper layout (red = front, blue = back).</em></p>
 
 2-layer board with copper pours on both sides, the STM32 in the center, IR emitter/receiver pairs around the front edge for wall sensing, motor mounts on both sides and the H-bridge, voltage regulator and power switch along the back.
 
