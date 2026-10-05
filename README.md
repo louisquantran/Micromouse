@@ -4,10 +4,19 @@ PCB design for a Micromouse: a small autonomous robot that maps and solves a maz
 
 The board is designed in [KiCad](https://www.kicad.org/) and built around an STM32F205 microcontroller, with two DC motors with encoders driven by an L293DD H-bridge and IR emitter/phototransistor pairs for wall sensing.
 
+## PCB
+
+| 3D render | Layout |
+|---|---|
+| ![3D render of the Micromouse PCB](docs/Micromouse%20PCB%203D%20Viewer.png) | ![Micromouse PCB layout](docs/Micromouse%20PCB.png) |
+
+2-layer board with the STM32 in the center, IR emitter/receiver pairs around the front edge for wall sensing, motor mounts on both sides and the H-bridge, voltage regulator and power switch along the back.
+
 ## Repository layout
 
 ```
 Micromouse/
+├── docs/                         # PCB images
 ├── mouse/                        # Main robot board
 │   ├── Micromouse_Mainboard/     # Full schematic + PCB (open this one)
 │   ├── IR_Emitter+IR_Receiver/   # IR sensing sub-circuit
